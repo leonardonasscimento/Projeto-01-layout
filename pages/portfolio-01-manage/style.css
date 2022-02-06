@@ -1,0 +1,19 @@
+.container-2 {
+  background-image: url("../../assets/portfolio/manage/image-manage-hero.jpg");
+  height: 500px;
+  width: 1110px;
+
+  margin-bottom: 115px;
+}
+
+.item-3 {
+  background-image: url("../../assets/portfolio/manage/image-manage-preview-1.jpg");
+  height: 400px;
+
+  margin-bottom: 32px;
+}
+
+.item-4 {
+  background-image: url("../../assets/portfolio/manage/image-manage-preview-2.jpg");
+  height: 400px;
+}

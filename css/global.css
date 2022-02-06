@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.imagem {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.linha-top-bottom {
+  border: 1px solid #fafafa;
+  border-top-color: rgba(151, 151, 151, 0.5);
+  border-bottom-color: rgba(151, 151, 151, 0.5);
+}
+
+/* body global */
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #33323d;
+  background-color: #fafafa;
+  min-height: 100vh;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* header global */
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1111px;
+
+  margin: 64px 164px 54px;
+}
+
+.item-1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-1 a {
+  color: #33323d;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+
+  margin-left: 42px;
+}
+
+.item-1 .cor-ancora {
+  color: #5fb4a2;
+}
+
+/* Botão contato */
+.container-contato {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 150px;
+}
+
+.container-contato h1 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 367px;
+}
+
+.container-contato a {
+  text-decoration: none;
+}
+
+.container-contato a button {
+  border: 1px solid #33323d;
+  color: #33323d;
+  font-size: 12px;
+  font-weight: 400;
+  height: 48px;
+  padding: 17px 50px;
+
+  cursor: pointer;
+}
+
+.container-contato a button:hover {
+  color: #ffffff;
+  background-color: #33323d;
+}
+
+/* footer global */
+footer{
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #33323d;
+}
+
+.container-f1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 24px;
+  width: 1110px;
+}
+
+.container-f2 {
+  display: flex;
+}
+
+.item-f1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 309px;
+
+  margin-left: 47px;
+}
+
+.item-f1 a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.item-f2 a {
+  margin-right: 15px;
+}
+
+
